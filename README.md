@@ -50,7 +50,6 @@ The dataset includes available features or labelled columns for analysis as foll
  - *Datetime*
  - *Matplotlib*
  - *Scikit-Learn*
- - *Scipy*
  
 ## Feature Insights
 
