@@ -65,6 +65,16 @@ Models trained & tested for classification were **Logistic Regression, Decision 
 
 ![alt text] (https://github.com/danishanis/Target_Marketing_Campaign/blob/master/Images/logreg.png)
 
+Included is a discussion highlighting the importance of domain knowledge when interpreting the classification metrics and how in this specific business case, the False Negative values also play a role. It is worth noting that considering the amount of profit the company is making following the campaign and the amount of money that is being made from false negatives, it is definitely worth it NOT to make any campaign and hoping for a maximum number of false negatives. However, let's say that we can get more insights with our clients by identifying potential features that would support the idea if a client will click on our ad or not. Therefore, we want to have an interpretable model that has a great precision to minimize the false positive which incur loss of money.
+
+Considering our test set which included a sample size of 200 customers, we predict that our **overall profit would be $13850**. This prediction includes:
+
+ - **Profit of $9300 from true positives**
+ 
+ - **Profit of $7700 from false negatives**
+ 
+ - **Loss of $3150 from false positives**
+
 The ROC metric for the model is as follows:
 
 ![alt text](https://github.com/danishanis/Target_Marketing_Campaign/blob/master/Images/roc.png)
