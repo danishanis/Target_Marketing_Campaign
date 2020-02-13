@@ -63,7 +63,7 @@ Feature dependencies with respect to target variables have been visualized to un
 
 Models trained & tested for classification were **Logistic Regression, Decision Tree Classifier** and **Random Forest Classifier**. The Logistic Regression model was tuned with L2 Regularization and achieved the best evaluation scores. Using metrics, the following summary was created in terms of **Profit from Correct Classifications** and **Losses incurred from misclassifications**, including the number of misclassifications that need to be reduced.
 
-![alt text] (https://github.com/danishanis/Target_Marketing_Campaign/blob/master/Images/logreg.png)
+![alt text](https://github.com/danishanis/Target_Marketing_Campaign/blob/master/Images/logreg.png)
 
 Included is a discussion highlighting the importance of domain knowledge when interpreting the classification metrics and how in this specific business case, the False Negative values also play a role. It is worth noting that considering the amount of profit the company is making following the campaign and the amount of money that is being made from false negatives, it is definitely worth it NOT to make any campaign and hoping for a maximum number of false negatives. However, let's say that we can get more insights with our clients by identifying potential features that would support the idea if a client will click on our ad or not. Therefore, we want to have an interpretable model that has a great precision to minimize the false positive which incur loss of money.
 
